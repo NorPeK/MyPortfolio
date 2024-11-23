@@ -17,7 +17,7 @@ const Clients = () => {
                                 <img src={img} alt={name} className="w-12 h-12 rounded-full" />
                                 <div className="flex flex-col">
                                     <p className="font-semibold text-white-800">{name}</p>
-                                    <p className="text-white-500 md:text-base text-sm"></p>
+                                    <p className="text-white-500 md:text-base text-sm">{position}</p>
                                 </div>
                             </div>
                             <div className="flex self-end items-center gap-2">
