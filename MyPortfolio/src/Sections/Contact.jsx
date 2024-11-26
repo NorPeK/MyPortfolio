@@ -1,12 +1,13 @@
 import { useRef, useState } from "react"
 import emailjs from '@emailjs/browser';
-
+import UseAlert from "../Hooks/UseAlert.js";
+import Alert from '../components/Alert.jsx';
 
 
 const Contact = () => {
 
     const formRef = useRef();
-
+    const { alert, showAlert, hideAlert } = UseAlert();
     const [loading, setLoading] = useState(false);
     const [form, setForm] = useState({
         name: '',
@@ -17,41 +18,60 @@ const Contact = () => {
     const handleChange = ({target : {name, value}}) => {
         setForm({...form, [name]: value})
     }
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
         setLoading(true);
-        try {
-            await emailjs.send(
-                'service_1368ahl',
-                'template_xl3scdk',
-                {
-                from_name: form.name,
-                to_name: 'Nour-Allah',
-                from_email: form.email,
-                to_email: 'norpekbusiness@hotmail.com',
-                message: form.message
+    
+        emailjs
+          .send(
+            import.meta.env.VITE_EMAILJS_SERVICE_ID,
+            import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+            {
+              from_name: form.name,
+              to_name: 'Nour-Allah',
+              from_email: form.email,
+              to_email: 'norpekbusiness@hotmail.com',
+              message: form.message,
             },
-            '-yzbgF5Q7gh0Az3FH'
-        )
-        setLoading(false);
-        alert("Your message has been sent!")
-        setForm({
-            name: '',
-            email: '',
-            message: ''
-        })
-        } catch (error) {
-            setLoading(false);
-            console.log(error);
-            alert("Something went wrong!");
-        }
-        
-    }
+
+            import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+          )
+          .then(
+            () => {
+              setLoading(false);
+              showAlert({
+                show: true,
+                text: 'Thank you for your message 😃',
+                type: 'success',
+              });
+    
+              setTimeout(() => {
+                hideAlert(false);
+                setForm({
+                  name: '',
+                  email: '',
+                  message: '',
+                });
+              }, [3000]);
+            },
+            (error) => {
+              setLoading(false);
+              console.error(error);
+    
+              showAlert({
+                show: true,
+                text: "I didn't receive your message 😢",
+                type: 'danger',
+              });
+            },
+          );
+      };
 
     
 
   return (
     <section className="c-space my-20" id="contact">
+        {alert.show && <Alert {...alert} />}
         <div className="relative min-h-screen flex items-center justify-center flex-col">
             <img src="assets/terminal.png" alt="terminal background" className="absolute inset-0 min-h-screen" />
             <div className="contact-container">
