@@ -16,10 +16,10 @@ const About = () => {
         <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
             <div className="col-span-1 xl:row-span-3">
                 <div className="grid-container">
-                    <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
+                    <img src="assets/norpek.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
                     <div> 
                         <p className="grid-headtext">Hi, I'm Nour-Allah</p>
-                        <p className="grid-subtext">With 12 years of experience, I have honed my skills in frontend and backend development with a focus on 3d development.</p>
+                        <p className="grid-subtext" style={{ textAlign: "justify" }}>I am a passionate and dedicated professional with a background in Computer Science and a drive for innovation. From leading collaborative projects to crafting impactful solutions, I excel at combining creativity and technical expertise to tackle challenges and deliver value. One of my proudest achievements includes developing "Baserah" a smart stick designed to empower visually impaired individuals. I thrive in dynamic environments where I can contribute to meaningful projects and continuously grow through learning and experimentation. Let’s create something exceptional together!</p>
                     </div>
                 </div>
             </div>
@@ -29,7 +29,9 @@ const About = () => {
                     <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain"/>
                     <div>
                         <p className="grid-headtext">Tech Stack</p>
-                        <p className="grid-subtext">I specialize in JavaScript/TypeScript with a focus on React and Next.js ecosystems</p>
+                        <p className="grid-subtext">
+                                       yay
+                        </p>
                     </div>
                </div>
             </div>
@@ -77,8 +79,80 @@ const About = () => {
                 <div className="grid-container">
                     <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
                     <div >
-                        <p className="grid-headtext">My Passion For Coding</p>
-                        <p className="grid-subtext">I love solving problems and building things through code. Coding isn't just my profession, it is also my passion.</p>
+                        <p className="grid-headtext">Tech Stack</p>
+                        <p className="grid-subtext">
+                            <p>
+                                As a versatile developer and data enthusiast, I work across a wide range of technologies, enabling me to build robust applications and handle complex challenges in both software and hardware domains.
+                            </p>
+
+                            <h2>Frontend Development</h2>
+                            <ul>
+                                <li>React.js (including React 19)</li>
+                                <li>Vite</li>
+                                <li>Next.js (including Next.js 15)</li>
+                                <li>TailwindCSS</li>
+                                <li>Figma</li>
+                            </ul>
+
+                            <h2>Backend Development</h2>
+                            <ul>
+                                <li>Node.js (Express, Nodemon)</li>
+                                <li>MongoDB</li>
+                                <li>Firebase</li>
+                            </ul>
+
+                            <h2>Mobile Development</h2>
+                            <ul>
+                                <li>Flutter</li>
+                            </ul>
+
+                            <h2>Authentication</h2>
+                            <ul>
+                                <li>NextAuth</li>
+                            </ul>
+
+                            <h2>Hardware and Embedded Systems</h2>
+                            <ul>
+                                <li>Arduino IDE (ESP32)</li>
+                                <li>C++</li>
+                            </ul>
+
+                            <h2>Data Handling and Visualization</h2>
+                            <ul>
+                                <li>Pandas</li>
+                                <li>Regex</li>
+                                <li>Excel</li>
+                                <li>Seaborn</li>
+                                <li>Matplotlib</li>
+                            </ul>
+
+                            <h2>Version Control and Collaboration</h2>
+                            <ul>
+                                <li>GitHub</li>
+                            </ul>
+
+                            <h2>Web Scraping</h2>
+                            <ul>
+                                <li>Selenium</li>
+                                <li>BeautifulSoup4</li>
+                                <li>Google Chrome scraping extension</li>
+                            </ul>
+
+                            <h2>Document Processing</h2>
+                            <ul>
+                                <li>PyPDF</li>
+                                <li>Tabula</li>
+                                <li>Fitz</li>
+                            </ul>
+
+                            <h2>Programming Languages</h2>
+                            <ul>
+                                <li>Dart</li>
+                                <li>JavaScript</li>
+                                <li>Python</li>
+                                <li>C++</li>
+                            </ul>
+                        </p>
                     </div>
                 </div>
             </div>                  
