@@ -147,6 +147,10 @@ const About = () => {
                             <p>
                                 - Dart - JavaScript - Python - C++
                             </p>
+                            <h2><b>Cloud & IT:</b></h2>
+                            <p>
+                                - HCCDA Tech Essentials - iVMS Camera Management
+                            </p>
                         </p>
                     </div>
                 </div>
