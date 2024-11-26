@@ -11,6 +11,8 @@ import Cube from "../components/cube.jsx";
 import Rings from "../components/Rings.jsx";
 import HeroCamera from "../components/HeroCamera.jsx";
 import Button from "../components/Button.jsx";
+import Robot from "../components/Robot.jsx";
+import Satelite from "../components/Satelite.jsx";
 
 const Hero = () => {
 
@@ -48,13 +50,14 @@ const Hero = () => {
                 </HeroCamera>
                 
                 <group>
-                    <Target position={sizes.targetPosition}/>
+                    <Satelite position={sizes.targetPosition}/>
                     <ReactLogo position={sizes.reactLogoPosition}/>
-                    <Cube position={sizes.cubePosition}/>
+                    <Robot position={sizes.cubePosition}/>
                     <Rings position={sizes.ringPosition}/>
                 </group>
-                <ambientLight intensity={1} />
-                <directionalLight position={[10, 10, 10]} intensity={0.5} />
+                <ambientLight intensity={1.5} />
+                <directionalLight position={[10, 10, 10]} intensity={2} />
+                
                 </Suspense>
             </Canvas>
         </div>
