@@ -58,13 +58,13 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'PitchSpark - Ignite Your Ideas',
+      desc: 'PitchSpark is a dynamic platform designed to help entrepreneurs, innovators, and creatives showcase their ideas and projects effectively. The website provides an intuitive interface for creating and sharing compelling pitches, enabling users to present their visions clearly and attractively to potential investors, collaborators, or audiences.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        'Built with a modern tech stack, PitchSpark leverages the power of React 19 and Next.js 15 for a responsive and seamless user experience. It is hosted on Vercel for fast, reliable deployment and uses best practices in web development to ensure scalability, performance, and user satisfaction.',
+      href: 'https://pitch-spark-tau.vercel.app',
       texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
+      logo: '/assets/pitchspark.png',
       logoStyle: {
         backgroundColor: '#2A1816',
         border: '0.2px solid #36201D',
@@ -89,19 +89,24 @@ export const navLinks = [
         },
         {
           id: 4,
+          name: 'Next.js',
+          path: '/assets/next-js.png',
+        },
+        {
+          id: 5,
           name: 'Framer Motion',
-          path: '/assets/framer.png',
+          path: '/assets/vercelLogo.png',
         },
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'AnimePeK - Your Anime Discovery Hub',
+      desc: 'AnimePeK is a vibrant platform designed for anime enthusiasts to explore, discover, and learn more about their favorite shows. With a clean, user-friendly interface, the website offers a curated experience for browsing anime, viewing details, and staying up-to-date with the latest trends in the anime world.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+        'The project is built using Next.js 14 with server actions, incorporating Framer Motion for smooth and visually appealing animations and Infinite Scroll for an uninterrupted browsing experience. Hosted on Vercel, AnimePeK combines cutting-edge technologies to deliver performance, reliability, and a seamless user experience.',
+      href: 'https://anime-pe-k-next-14-server-actions.vercel.app',
       texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo2.png',
+      logo: '/assets/animeLogo.svg',
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
@@ -116,8 +121,8 @@ export const navLinks = [
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'Next.js',
+          path: 'assets/next-js.png',
         },
         {
           id: 3,
@@ -132,13 +137,13 @@ export const navLinks = [
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'BookWorm - Your Online Bookstore',
+      desc: 'BookWorm was my first MERN full-stack project. It is a comprehensive online bookstore designed for book lovers to explore, search, create, and edit books.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        'The project is developed using a robust MERN (MongoDB, Express.js, React, Node.js) stack to deliver a highly interactive and dynamic user experience. It is hosted on Render for dependable performance.',
+      href: 'https://bookstore-website-1-es0v.onrender.com',
       texture: '/textures/project/project3.mp4',
-      logo: '/assets/project-logo3.png',
+      logo: '/assets/bookLogo.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -155,29 +160,34 @@ export const navLinks = [
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'Node.js',
+          path: 'assets/nodejs.png',
         },
         {
           id: 3,
           name: 'TypeScript',
-          path: '/assets/typescript.png',
+          path: '/assets/express.png',
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'MongoDB',
+          path: '/assets/mongodb.svg',
+        },
+        {
+          id: 4,
+          name: 'Render',
+          path: '/assets/render.png',
         },
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      title: 'Baserah - A Smart Stick For The Visually Impaired',
+      desc: 'Baserah is a mobile application designed to complement the Baserah Smart Stick, an assistive device aimed at improving navigation and safety for visually impaired individuals. The app provides real-time GPS tracking for caregivers to monitor the user’s movements, Bluetooth connectivity to facilitate communication with the smart stick, and a history log feature to review past alerts and location data.',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+        'The application was developed using Flutter for cross-platform compatibility on both iOS and Android devices, leveraging the Dart programming language. It integrates advanced features like real-time location tracking, seamless Bluetooth connectivity, and intuitive UI/UX design, ensuring accessibility and user-friendliness for all caretakers.',
+      href: 'https://www.figma.com/design/2FFafApSXvaBu9DAKr01sr/Baserah-App?node-id=0-1&t=iGGHBvgdJgOJyDqZ-1',
       texture: '/textures/project/project4.mp4',
-      logo: '/assets/project-logo4.png',
+      logo: '/assets/baserah.svg',
       logoStyle: {
         backgroundColor: '#0E1F38',
         border: '0.2px solid #0E2D58',
@@ -187,32 +197,21 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Flutter',
+          path: '/assets/flutter.svg',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Dart',
+          path: 'assets/Dart.png',
         },
       ],
     },
     {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-      subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      title: 'Research Paper - High Performance Computing for Image Processing on Medical Field Parallelization Techniques',
+      desc: 'This research investigates the use of high-performance computing (HPC) to accelerate medical image processing tasks such as segmentation, registration, and feature extraction. By employing parallelization techniques with multi-core CPUs, GPUs, and distributed computing clusters, it achieves significant improvements in speed and efficiency, enabling real-time analysis and enhancing medical diagnosis and treatment.',
+      subdesc: 'This paper was published in the International Journal of Computer Science and Information Security (IJCSIS), Volume 22, No. 3, June 2024.',
+      href: 'https://www.academia.edu/121693599/High_Performance_Computing_for_Image_Processing_on_Medical_Field_Parallelization_Techniques',
       texture: '/textures/project/project5.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
@@ -224,23 +223,8 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Word',
+          path: '/assets/word.png',
         },
       ],
     },
