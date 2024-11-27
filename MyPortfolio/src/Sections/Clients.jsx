@@ -4,7 +4,7 @@ const Clients = () => {
   return (
     <section className="c-space my-20">
         <h3 className="head-text">
-            Hear From My Clients and Co-workers
+            Hear from My Managers, Colleagues, and Mentors
         </h3>
 
         <div className="client-container">
