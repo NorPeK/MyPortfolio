@@ -63,7 +63,7 @@ export const navLinks = [
       subdesc:
         'Built with a modern tech stack, PitchSpark leverages the power of React 19 and Next.js 15 for a responsive and seamless user experience. It is hosted on Vercel for fast, reliable deployment and uses best practices in web development to ensure scalability, performance, and user satisfaction.',
       href: 'https://pitch-spark-tau.vercel.app',
-      texture: '/textures/project/project1.mp4',
+      texture: '/textures/project/pitchspark.mp4',
       logo: '/assets/pitchspark.png',
       logoStyle: {
         backgroundColor: '#2A1816',
@@ -105,7 +105,7 @@ export const navLinks = [
       subdesc:
         'The project is built using Next.js 14 with server actions, incorporating Framer Motion for smooth and visually appealing animations and Infinite Scroll for an uninterrupted browsing experience. Hosted on Vercel, AnimePeK combines cutting-edge technologies to deliver performance, reliability, and a seamless user experience.',
       href: 'https://anime-pe-k-next-14-server-actions.vercel.app',
-      texture: '/textures/project/project2.mp4',
+      texture: '/textures/project/anime.mp4',
       logo: '/assets/animeLogo.svg',
       logoStyle: {
         backgroundColor: '#13202F',
@@ -142,7 +142,7 @@ export const navLinks = [
       subdesc:
         'The project is developed using a robust MERN (MongoDB, Express.js, React, Node.js) stack to deliver a highly interactive and dynamic user experience. It is hosted on Render for dependable performance.',
       href: 'https://bookstore-website-1-es0v.onrender.com',
-      texture: '/textures/project/project3.mp4',
+      texture: '/textures/project/book.mp4',
       logo: '/assets/bookLogo.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
@@ -186,7 +186,7 @@ export const navLinks = [
       subdesc:
         'The application was developed using Flutter for cross-platform compatibility on both iOS and Android devices, leveraging the Dart programming language. It integrates advanced features like real-time location tracking, seamless Bluetooth connectivity, and intuitive UI/UX design, ensuring accessibility and user-friendliness for all caretakers.',
       href: 'https://www.figma.com/design/2FFafApSXvaBu9DAKr01sr/Baserah-App?node-id=0-1&t=iGGHBvgdJgOJyDqZ-1',
-      texture: '/textures/project/project4.mp4',
+      texture: '/textures/project/baserah.mp4',
       logo: '/assets/baserah.svg',
       logoStyle: {
         backgroundColor: '#0E1F38',
@@ -212,7 +212,7 @@ export const navLinks = [
       desc: 'This research investigates the use of high-performance computing (HPC) to accelerate medical image processing tasks such as segmentation, registration, and feature extraction. By employing parallelization techniques with multi-core CPUs, GPUs, and distributed computing clusters, it achieves significant improvements in speed and efficiency, enabling real-time analysis and enhancing medical diagnosis and treatment.',
       subdesc: 'This paper was published in the International Journal of Computer Science and Information Security (IJCSIS), Volume 22, No. 3, June 2024.',
       href: 'https://www.academia.edu/121693599/High_Performance_Computing_for_Image_Processing_on_Medical_Field_Parallelization_Techniques',
-      texture: '/textures/project/project5.mp4',
+      texture: '/textures/project/paper.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',

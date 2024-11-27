@@ -27,11 +27,11 @@ const Contact = () => {
             import.meta.env.VITE_EMAILJS_SERVICE_ID,
             import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
             {
-              from_name: form.name,
-              to_name: 'Nour-Allah',
-              from_email: form.email,
-              to_email: 'norpekbusiness@hotmail.com',
-              message: form.message,
+              from_name: form.name,             // Sender's name from form input
+                to_name: 'Nour-Allah',            // Your name
+                reply_to: form.email,             // Sender's email (for replies)
+                to_email: 'norpekbusiness@hotmail.com', // Your recipient email
+                message: form.message,      
             },
 
             import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
