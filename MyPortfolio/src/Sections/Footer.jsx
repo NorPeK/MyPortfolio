@@ -6,7 +6,7 @@ const Footer = () => {
           <p>|</p>
           <p>
             <a 
-              href="path_to_your_resume.pdf" 
+              href="/assets/Nour-allah CV.pdf" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-blue-500 hover:underline"
