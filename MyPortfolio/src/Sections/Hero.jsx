@@ -1,3 +1,16 @@
+
+/*
+This work is based on "Robot RoCKet" (https://sketchfab.com/3d-models/robot-rocket-f04d70f5a38943098da45f76e7ebb238)
+ by TeKen_art30 (https://sketchfab.com/ken_art30) 
+ licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+
+
+ This work is based on "Satellite Dishes Animation Fun"
+  (https://sketchfab.com/3d-models/satellite-dishes-animation-fun-72393f67ee5b4e17bc64cd18b443dd4d)
+   by 3DHaupt (https://sketchfab.com/dennish2010)
+    licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+*/
+
 import { Canvas } from "@react-three/fiber";
 import { PerspectiveCamera } from '@react-three/drei';
 import HackerRoom from "../components/HackerRoom.jsx";

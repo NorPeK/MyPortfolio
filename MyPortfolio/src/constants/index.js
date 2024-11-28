@@ -24,35 +24,35 @@ export const navLinks = [
   export const clientReviews = [
     {
       id: 1,
-      name: 'Emily Johnson',
-      position: 'Marketing Director at GreenLeaf',
-      img: 'assets/review1.png',
+      name: 'Hussain Alyousef',
+      position: 'Analytics Manager at Bloom Duck',
+      img: 'assets/hussain.png',
       review:
-        'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+        'Nour-Allah Bek is a highly motivated and dedicated individual with exceptional technical expertise in data science and a remarkable ability to learn and apply new concepts effectively. He has demonstrated strong leadership qualities, successfully leading his team to achieve outstanding results while fostering collaboration and efficiency. His excellent communication, teamwork, and problem-solving skills, combined with his ability to manage tasks and meet deadlines, make him a valuable asset to any organization.',
     },
     {
       id: 2,
-      name: 'Mark Rogers',
-      position: 'Founder of TechGear Shop',
-      img: 'assets/review2.png',
+      name: 'Dr. Abdulrahman Alharby',
+      position: 'Assistant professor @ Imam Abdulrahman Bin Faisal University',
+      img: 'assets/alharby.png',
       review:
-        'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+        'It was my pleasure to know Nour-Allah Bek. During my interactions with him, I observed his exceptional academic abilities, critical thinking skills, and strong work ethic. Nour-Allah consistently demonstrated a dedication to excellence and a capacity to excel in challenging tasks. \n\nI am confident that Nour-Allah has the potential to succeed in any academic or professional endeavor',
     },
     {
       id: 3,
-      name: 'John Dohsas',
-      position: 'Project Manager at UrbanTech ',
-      img: 'assets/review3.png',
+      name: 'Saeed Al Qahtani',
+      position: 'Lecturer - Computer Information System Department',
+      img: 'assets/saeed.png',
       review:
-        'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+        'Nour-Allah is one of the excellent students. I have taught him some courses and he was proactive , interactive and very good in team work and individual tasks.\n\nI recommend him for higher education and professional work as he has the knowledge and effective skills. ',
     },
     {
       id: 4,
-      name: 'Ether Smith',
-      position: 'CEO of BrightStar Enterprises',
-      img: 'assets/review4.png',
+      name: 'Hussain Al-Haydar',
+      position: 'System Administrator @ Abdulla Fouad Group', 
+      img: 'assets/hasson.png',
       review:
-        'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+        'I had the pleasure of working with Nour-Allah on our Baserah Smart Stick for the Visually Impaired project. His technical expertise, problem-solving skills, and dedication were instrumental to our success. Nour-Allah excelled in developing our Flutter application and making substantial contributions to the hardware integration. He always approached challenges with a collaborative and proactive attitude. I highly recommend him as a skilled and reliable team member.',
     },
   ];
   
