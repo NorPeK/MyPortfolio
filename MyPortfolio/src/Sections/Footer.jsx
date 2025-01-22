@@ -34,7 +34,7 @@ const Footer = () => {
           </a>
         </div>
         <p className="text-white-500">
-          Copyright &copy; 2024 Nour-Allah All Rights Reserved.
+          Copyright &copy; 2025 Nour-Allah All Rights Reserved.
         </p>
       </section>
     )

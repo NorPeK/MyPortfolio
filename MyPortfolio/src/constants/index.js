@@ -226,6 +226,49 @@ export const navLinks = [
           name: 'Word',
           path: '/assets/word.png',
         },
+        
+      ],
+    },
+
+    {
+      title: 'Real Scout - A real estate Application',
+      desc: 'A real estate app designed to simplify the process of finding and exploring real estate properties, making it easier for users to connect with their dream homes. ',
+      subdesc: 'This application is built using React Native for seamless cross-platform development, Expo Router for intuitive navigation, Appwrite for backend as a service, TailwindCSS for sleek and responsive design, and TypeScript for type safety and maintainable code.',
+      href: 'https://www.figma.com/design/MIUhyLH2NcLXMZdKp0WAmB/Untitled?node-id=0-1&t=IUKfrzhPPWaI7JLx-1',
+      texture: '/textures/project/scout.mp4',
+      logo: '/assets/project-logo5.png',
+      logoStyle: {
+        backgroundColor: '#1C1A43',
+        border: '0.2px solid #252262',
+        boxShadow: '0px 0px 60px 0px #635BFF4D',
+      },
+      spotlight: '/assets/spotlight5.png',
+      tags: [
+        {
+          id: 1,
+          name: 'Appwrite',
+          path: '/assets/appwrite.png',
+        },
+        {
+          id: 2,
+          name: 'Expo',
+          path: 'assets/expo.png',
+        },
+        {
+          id: 3,
+          name: 'React-native',
+          path: 'assets/react-native.png',
+        },
+        {
+          id: 4,
+          name: 'Typescript',
+          path: 'assets/typescript.png',
+        },
+        {
+          id: 5,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
       ],
     },
   ];

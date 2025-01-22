@@ -105,12 +105,12 @@ const About = () => {
 
                             <h2><b>Backend Development:</b></h2>
                             <p>
-                                - Node.js (Express) - MongoDB - Firebase - Sanity
+                                - Node.js (Express) - MongoDB - Firebase - Sanity - Expo - Appwrite
                             </p>
 
                             <h2><b>Mobile Development:</b></h2>
                             <p>
-                                - Flutter
+                                - Flutter - React-Native
                             </p>
 
                             <h2><b>Authentication and Deployment:</b></h2>
@@ -130,7 +130,7 @@ const About = () => {
 
                             <h2><b>Version Control and Collaboration:</b></h2>
                             <p>
-                                - GitHub
+                                - GitHub - Git
                             </p>
 
                             <h2><b>Web Scraping:</b></h2>
