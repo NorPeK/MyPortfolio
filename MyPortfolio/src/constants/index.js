@@ -288,9 +288,10 @@ export const navLinks = [
     {
       id: 1,
       name: 'Creative Urban Design',
-      pos: 'IT Support Specialist',
+      pos: 'IT Support Specialist & Web Developer',
       duration: 'july 2024 --> Present',
-      title: "Currently, I'm an IT Support Specialist responsible for managing and maintaining hardware, software, and network systems to ensure seamless operations. My role includes setting up and troubleshooting PCs, peripherals, and surveillance cameras, managing user accounts and server performance, installing and configuring software, and ensuring reliable network connectivity. ",
+      title: `Currently, I'm an IT Support Specialist responsible for managing and maintaining hardware, software, and network systems to ensure seamless operations. My role includes setting up and troubleshooting PCs, peripherals, and surveillance cameras, managing user accounts and server performance, installing and configuring software, and ensuring reliable network connectivity.
+      I'm also a web-developer where I solely developed and currently launching the company website using React and Next.js, handled end-to-end design, development, and deployment to showcase project portfolios, enable service requests, and ensure optimal performance and user experience.`,
       icon: '/assets/bassem.svg',
       animation: 'victory',
     },
