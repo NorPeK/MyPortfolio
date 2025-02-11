@@ -39,6 +39,14 @@ const Navbar = () => {
           >
             Nour-Allah
           </a>
+          <a 
+              href="/assets/Nour-Allah CV new.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-blue-500 hover:underline ml-8"
+            >
+              View CV
+            </a>
           <button
             onClick={toggleMenu}
             className="text-neutral-400 hover:text-white focus:outline-none sm:hidden flex"
