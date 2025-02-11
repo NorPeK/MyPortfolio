@@ -8,7 +8,7 @@ const Footer = () => {
           <p>|</p>
           <p>
             <a 
-              href="/assets/Nour-Allah new CV.pdf" 
+              href="/assets/Nour-Allah CV new.pdf" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-blue-500 hover:underline"
