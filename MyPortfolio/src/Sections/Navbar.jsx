@@ -40,7 +40,7 @@ const Navbar = () => {
             Nour-Allah
           </a>
           <a 
-              href="/assets/Nour-Allah CV new.pdf" 
+              href="/assets/Nour-Allah CV latest.pdf" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-blue-500 hover:underline ml-8"
